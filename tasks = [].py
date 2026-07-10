@@ -1,7 +1,7 @@
 tasks = []
 
 while True:
-    print("\n--- To-Do List ---")
+    print("\nTo-Do List")
     print("1. Add task")
     print("2. View tasks")
     print("3. Quit")
@@ -15,14 +15,14 @@ while True:
     
     elif choice == "2":
         if not tasks:
-            print("No tasks yet.")
+            print("No tasks yet")
         else:
             print("\nYour tasks:")
             for i, task in enumerate(tasks, 1):
                 print(f"  {i}. {task}")
     
     elif choice == "3":
-        print("Goodbye!")
+        print("See u soon Goodbye!")
         break
     
     else:
