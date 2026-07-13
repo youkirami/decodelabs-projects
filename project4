@@ -1,0 +1,27 @@
+score = 0      
+
+answer1 = input("Q1: What is the capital of France? ").strip().lower()
+if answer1 == "paris":
+    print("✅ Correct!")
+    score = score + 1
+else:
+    print("❌ Wrong! The answer is Paris.")
+
+
+answer2 = input("Q2: What is the largest planet in our solar system? ").strip().lower()
+if answer2 == "jupiter":
+    print("✅ Correct!")
+    score = score + 1
+else:
+    print("❌ Wrong! The answer is Jupiter.")
+
+
+answer3 = input("Q3: How many sides does a hexagon have? ").strip().lower()
+if answer3 == "6" or answer3 == "six":
+    print("✅ Correct!")
+    score = score + 1
+else:
+    print("❌ Wrong! The answer is 6.")
+
+
+print(f"\n🏆 Quiz Over! Your score: {score}/3")
